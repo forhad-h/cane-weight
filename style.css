@@ -1,0 +1,200 @@
+/*
+   table stylize
+*/
+* {
+    margin: 0;
+	padding: 0;	
+}
+table.main_table {
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+table.main_table tfoot td {
+    
+}
+table.main_table > tbody > tr > td {
+	padding-left: 20px;
+}
+table.main_table > tbody > tr > td:first-child {
+	padding-left: 0;
+}
+table.main_table > tbody > tr > td tr td{
+	padding-bottom: 10px;
+}
+label {
+	color: #555;
+}
+input {
+	font-size: 16px;
+	padding: 5px 10px;
+	border: 1px solid #999;
+	color: #555;
+	border-radius: 3px;
+}
+input[type='submit'] {
+	background: #007000 none repeat scroll 0 0;
+	border: 0 none;
+	color: #fff;
+	cursor: pointer;
+	margin-top: 70px;
+	padding: 5px 65px;
+}
+input[type='submit']:hover {
+	background: #008500 none repeat scroll 0 0;
+}
+input#center {
+	line-height: 160%;
+	padding: 2px 10px 3px;
+}
+input[readonly] {
+	background: #eee;
+	border: 1px solid #ddd;
+	color: #333;
+}
+.center_list {
+	background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+	border-top: 45px solid transparent;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 500;
+	border-left: 100px solid transparent;
+}
+.center_list ul {
+	list-style: none;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.center_list ul li {
+  background: #fff none repeat scroll 0 0;
+  color: #000;
+  display: block;
+  font-size: 18px;
+  margin: 5px 20px;
+  padding: 5px 15px;
+  width: 179px;
+  cursor: pointer;
+  font-weight: 800;
+}
+.date_table {
+	margin-bottom: 100px;
+}
+.date_table tr td input {
+	width: 35px;
+}
+label.error {
+	color: #F00;
+	display: block;
+}
+#get_csv {
+  background: #999 none repeat scroll 0 0;
+  bottom: 10px;
+  padding: 5px 10px;
+  position: absolute;
+  right: 10px;
+}
+.suc {
+	position: absolute;
+	color: #093;
+	left: 140px;
+	top: 20px;
+}
+.sheet_sum {
+	font-size: 20px;
+    padding-left: 140px;
+}
+.sheet_sum hr {
+	border-bottom: 0 none;
+	border-top: 1px solid #888;
+	height: 0;
+	margin-bottom: 5px;
+	margin-left: -27px;
+	margin-top: 5px;
+	width: 250px;
+}
+.clearfix:before, .clearfix:after {
+	display:table;
+	content:" "	;
+}
+.clearfix:after {
+	clear: both;
+}
+.center_group {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 600;
+}
+.center_group li {
+}
+.g0 {
+	
+}
+.g1 {
+	top: 92px;
+}
+.g2 {
+	top: 344px;
+}
+.g3 {
+	top: 476px;
+}
+.g4 {
+	left: 225px;
+    top: 0;
+}
+.g5 {
+	left: 225px;
+	top: 213px;
+}
+.g6 {
+	left: 225px;
+	top: 266px;
+}
+.g7 {
+	left: 225px;
+	top: 360px
+}
+.g8 {
+  left: 450px;
+  top: 0;
+}
+.g9 {
+	left: 450px;
+	top: 91px;
+}
+.g10 {
+	left: 450px;
+	top: 187px;
+}
+.g11 {
+	left: 450px;
+	top: 326px;
+}
+.g12 {
+	left: 679px;
+    top: 0;
+}
+.g13 {
+	left: 679px;
+	top: 300px;
+}
+.g14 {
+	left: 919px;
+	top: 0;
+}
+.g15 {
+	left: 919px;
+    top: 136px;
+}
+.g16 {
+	left: 919px;
+	top: 193px;
+}
+.g17 {
+	left: 919px;
+	top: 330px;
+}
