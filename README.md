@@ -1,5 +1,5 @@
 
-##Cane weight calculation
+## Cane weight calculation
 ```
-A simple application for calculating net cane weight.
+A simple application for calculating net weight.
 ```
